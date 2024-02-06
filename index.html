@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar 1: -->
+        <div class="navbar">
+
+            <div class="leftNav" style="display: flex;">
+                <div class="logobox1 border">
+                    <div class="logo"><a href="#"></a></div>
+                    <span>.in</span>
+                </div>
+    
+                <div class="box2 border">
+                    <div class="locationimg">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="box2Content">
+                        <span id="firstline">Deliver to</span><br>
+                        <span id="secondline">India</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="centerNav" style="display: flex;">
+                <div class="box3">
+                    <div class="box3container">
+    
+                        <div class="searchBar">
+                            <select name="All" id="category">
+                                <option value="All" selected>ALL</option>
+                            </select>
+                            <input type="text" placeholder="Search Amazon.in" id="search">
+                            <div class="searchlogo">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightNav" style="display: flex;">
+                <div class="box4 border">
+                    <img src="Images/india.png" alt="India">
+                    <span>EN</span>
+                </div>
+    
+                <div class="box5 border">
+                    <span id="box5firstline">Hello,sign in</span><br>
+                    <span id="box5secondline">Accounts & lists</span>
+                </div>
+                <div class="box6 border">
+                    <span id="box6firstline">Returns</span><br>
+                    <span id="box6secondline">& Orders</span>
+                </div>
+    
+                <div class="box7 border">
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <span id="cart">Cart</span>
+                </div>
+            </div>
+            
+            <div class="hiddenNav">
+                <div class="hiddenSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar 2: -->
+
+        <div class="navbar2">
+
+            <div class="leftnav2 border">
+                <i class="fa-solid fa-bars"></i>
+                <span>All</span>
+            </div>
+
+            <div class="centernav2">
+                <ul class="nav2items">
+                    <li class="first border"><a href="#">Amazon miniTV</a></li>
+                    <li class="second border"><a href="#">Sell</a></li>
+                    <li class="third border"><a href="#">Best Sellers</a></li>
+                    <li class="fourth border"><a href="#">Mobiles</a></li>
+                    <li class="fifth border"><a href="#">Today's Deals</a></li>
+                    <li class="sixth border"><a href="#">Electronics</a></li>
+                    <li class="seventh border"><a href="#">Customer Service</a></li>
+                    <li class="eight border"><a href="#">New Releases</a></li>
+                    <li class="nineth border"><a href="#">Prime</a></li>
+                    <li class="tenth border"><a href="#">Gift Ideas</a></li>
+                </ul>
+            </div>
+
+            <div class="rightnav2 border">
+                <img src="Images/amazon-app-logo-6196.png" alt="Amazon">
+                <Span>Shopping made easy | Download the app</Span>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="heroSection">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/SVD/Feb24/GW/Unrec_PC_3000._CB583595285_.jpg" alt="backgroung Image" id="img1">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/Jan/unrecatf/citi/Makeup-PCcv._CB584595621_.jpg" alt="backgroung Image" id="img2">
+        </div>
+
+    </header>
+
+    <main>
+        
+        <div class="shoppingDiv">
+            <div class="card1 card">
+                <div class="boxContent">
+                    <h1>Get upto 50% off | Clothes</h1>
+                    <div class="cardimg"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card2 card">
+                <div class="boxContent">
+                    <h1>Starting $99 | All your home needs</h1>
+                    <div class="cardimg" style="background-image: url('Images/box2_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card3 card">
+                <div class="boxContent">
+                    <h1>Get Best discount on Furniture</h1>
+                    <div class="cardimg" style="background-image: url('Images/box3_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card4 card">
+                <div class="boxContent">
+                    <h1>Get Best deals | On Gadgets</h1>
+                    <div class="cardimg" style="background-image: url('Images/box4_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card5 card">
+                <div class="boxContent">
+                    <h1>Get 60% off | Beauty Products</h1>
+                    <div class="cardimg" style="background-image: url('Images/box5_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card6 card">
+                <div class="boxContent">
+                    <h1>Get upto 80% For your | Dogs needs</h1>
+                    <div class="cardimg" style="background-image: url('Images/box6_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card7 card">
+                <div class="boxContent">
+                    <h1>Great deals on iron accesories</h1>
+                    <div class="cardimg" style="background-image: url('Images/box7_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+            <div class="card8 card">
+                <div class="boxContent">
+                    <h1>Upto 60% off | Summer Fashion</h1>
+                    <div class="cardimg" style="background-image: url('Images/box8_image.jpg');"></div>
+                    <span><a href="#">See More</a></span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <footer>
+        <div class="signinbar">
+            <div class="signintitle">See Personalized Recommendation</div>
+            <div class="signinbutton"><a href="#">Sign in</a></div>
+            <div class="signinsecondtitle">New customer? <a href="#">Start here.</a></div>
+        </div>
+
+        <div class="backtotopbar"><Span><a href="#">Back To top</a></Span></div>
+
+        <div class="footer1">
+            <div class="footerdiv1">
+                <ul>
+                    <li><h4><a href="#">Get To Know Us</a></h4></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Realeases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="footerdiv2">
+                <ul>
+                    <li><h4><a href="#">Contect with Us</a></h4></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footerdiv3">
+                <ul>
+                    <li><h4><a href="#">Make Money with Us</a></h4></li>
+                    <li><a href="#">Sell on Amazon</a></li>
+                    <li><a href="#">Sell under Amazon Accelerator</a></li>
+                    <li><a href="#">Protect and Build Your Brand</a></li>
+                    <li><a href="#">Amazon Global Selling</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Fulfilment by Amazon</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Amazon Pay on Merchants</a></li>
+                </ul>
+            </div>
+            <div class="footerdiv4">
+                <ul>
+                    <li><h4><a href="#">Let Us Help Us</a></h4></li>
+                    <li><a href="#">Covid-19 and Amazon</a></li>
+                    <li><a href="#">Your Accounts</a></li>
+                    <li><a href="#">Return Center</a></li>
+                    <li><a href="#">100% Perchanse Protection</a></li>
+                    <li><a href="#">Amazon App Download</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+
+        <div class="footer2">
+            <div class="footer2div">
+                <div class="footer2divimg"></div>
+                <div class="footer2divlanguage">
+                    <i class="fa-sharp fa-solid fa-globe"></i>
+                    <span>English</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer3">
+            <ul>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">Brazil</a></li>
+                <li><a href="#">Canada</a></li>
+                <li><a href="#">China</a></li>
+                <li><a href="#">France</a></li>
+                <li><a href="#">Germany</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">Japan</a></li>
+                <li><a href="#">Mexico</a></li>
+                <li><a href="#">Netherlands</a></li>
+                <li><a href="#">Poland</a></li>
+                <li><a href="#">Singapore</a></li>
+                <li><a href="#">Spain</a></li>
+                <li><a href="#">Turkey</a></li>
+                <li><a href="#">United Arab Emirates</a></li>
+                <li><a href="#">United Kingdom</a></li>
+                <li><a href="#">United States</a></li>
+            </ul>
+        </div>
+
+        <div class="footer4">
+            <div class="footer4div">
+                <div class="gridlayout">
+                    <div class="griditems griditem1"><a href="#"><span>AbeBooks</span> <br>Books art <br>& collectibles</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>Amazon Web Services</span> <br>Scalable cloud<br>computing srvices</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>Audible </span><br>Download <br>Audible Books</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>IMDB</span> <br>Movies, TV & <br>Celebrities</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>Shopbop</span> <br>Designer <br>Fashion Brands</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>Amazon Business</span> <br> Everything For <br>Your Business</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>Prime</span> <br>Now 2-Hours Delivery <br>On Everyday Items</a></div>
+                    <div class="griditems griditem1"><a href="#"><span>Amazon Prime Music</span> <br>100 Millions Songs, ad-free <br>Over 15 millions podcast episodes</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer5">
+            <div class="footer5div">
+                <ul>
+                    <li><a href="#">Conditions of use & sales</a></li>
+                    <li><a href="#">Privacy Notice </a></li>
+                    <li><a href="#">Internet-Based Ads</a></li>
+                </ul>
+                <span>&copy;1996-2024, Amazon.com, Inc.or its affiliates</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/1027423bb8.js" crossorigin="anonymous"></script>
+</body>
+</html>
