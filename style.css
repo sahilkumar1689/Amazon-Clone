@@ -6,7 +6,7 @@
     color: white;
 }
 body{
-    background-color: #E3E6E6;
+    background-color: #ffb451cc;
 }
 @media screen and (max-width:375px) {
     body{
@@ -452,7 +452,7 @@ body{
     padding-left: 5px;
 }
 .nav2items .second{
-    width: 2.2vw;
+    width: 2.4vw;
     padding-left: 5px;
 }
 .nav2items .third{
@@ -476,7 +476,7 @@ body{
     padding-left: 5px;
 }
 .nav2items .eight{
-    width: 7vw;
+    width: 8vw;
     padding-left: 5px;
 }
 .nav2items .nineth{
@@ -574,15 +574,13 @@ body{
 /* Hero Section: */
 .heroSection{
     width: 100vw;
-    height: 60vh;
-    overflow: hidden;
     /* border: 2px solid black; */
     /* background-image: url("Images/hero_image.jpg");
     background-size: cover; */
 }
 .heroSection #img1{
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
 }
 .heroSection #img2{
     width: 100%;
@@ -596,8 +594,6 @@ body{
     }
     .heroSection #img2{
         display: block;
-        width: 140%;
-        height: 110% ;
     }
 }
 
@@ -611,34 +607,32 @@ body{
     /* border: 2px solid black; */
     justify-content: center;
     align-items: center;
-    column-gap: 1vw;
+    column-gap: 2vw;
     row-gap: 3vw;
-    position: absolute;
-    top: 55vh;
-    overflow: scroll;
-    scrollbar-width: none;
+    position:relative;
+    bottom: 150px;
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:1024px){
     .shoppingDiv{
-        position: absolute;
-        top: 60vh;
+        position: relative;
+        bottom: 100px;
     }
-    .heroSection{
-        width: 100vw;
-        height: 75vh;
-        overflow: hidden;
-    }
-    .heroSection #img1{
-        width: 122%;
+}
+@media screen and (max-width:768px){
+    .shoppingDiv{
+        position: relative;
+        bottom: 40px;
     }
 }
 
+
 .shoppingDiv .card{
-    width: 340px;
-    height: 420px;
+    width: 336px;
+    height: 460px;
     /* border: 2px solid black; */
     background-color: #ffffff;
     position: relative;
+    border-radius: 10px;
 }
 
 .boxContent{
@@ -646,11 +640,20 @@ body{
     height: calc(100% - 20px);
     /* border: 2px solid black; */
     margin-top: 20px;
+    font-size: 13px;
 }
 
+@media screen and (max-width:450px){
+    .shoppingDiv .card{
+        width: 305px;
+        height: 420px;
+    }
+    .boxContent{
+        font-size: 12px;
+    }
+}
 .boxContent h1{
     color: black;
-    font-size: 1.7rem;
     margin-left: 20px;
     margin-bottom: 16px;
     /* border: 2px solid black; */
@@ -658,16 +661,20 @@ body{
 
 .boxContent .cardimg{
     /* border: 2px solid black; */
-    width: 88%;
-    height: 70%;
+    width: 86%;
+    height: 64%;
     background-image: url("Images/box1_image.jpg");
-    margin: 0.8vw 6%;
+    margin: 1.6vw 6%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 .boxContent span{
+    display: block;
     /* border: 2px solid black; */
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .boxContent span a{
@@ -677,6 +684,7 @@ body{
 
 .boxContent span a:hover{
     color: #157D8F;
+    text-decoration: underline;
 }
 
 /* Footer: */
@@ -684,26 +692,9 @@ body{
 footer{
     width: 100vw;
     /* border: 2px solid black; */
-    margin-top: 115vh;
-    height: 132vh;
+    height: 100vh;
     background-color: white;
 }
-@media screen and (max-width:1402px){
-    footer{
-        margin-top: 197vh;
-    }
-}
-@media screen and (max-width:1040px){
-    footer{
-        margin-top: 262vh;
-    }
-}
-@media screen and (max-width:687px){
-    footer{
-        margin-top: 500vh;
-    }
-}
-
 
 .signinbar{
     width: 99%;
